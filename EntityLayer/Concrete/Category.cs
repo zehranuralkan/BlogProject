@@ -19,5 +19,6 @@ namespace EntityLayer.Concrete
         //category'i aktif ya da pasife çekmek için
 
 
+        public List<Blog> Blogs { get; set; }
     }
 }
