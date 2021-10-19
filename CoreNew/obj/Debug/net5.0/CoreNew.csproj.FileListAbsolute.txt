@@ -151,3 +151,4 @@ C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\EntityLayer.pdb
 C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
