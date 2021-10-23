@@ -158,3 +158,4 @@ C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Default\Pa
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Partial1.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Partial2.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Partial3.cshtml.g.cs
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Blog\BlogDetails.cshtml.g.cs
