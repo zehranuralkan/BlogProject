@@ -13,7 +13,7 @@ namespace BusinessLayer.Concrete
 
     {
         ICommentDal _commentdal;
-
+        IBlogDal _blogDal;
         public CommentManager(ICommentDal commentdal)
         {
             _commentdal = commentdal;
@@ -26,7 +26,7 @@ namespace BusinessLayer.Concrete
 
         public List<Comment> GetList(int id)
         {
-            return _commentdal.GetListAll(x => x.CommentID == id);
+            return _commentdal.GetListAll(x => x.BlogID == id);
         }
 
       

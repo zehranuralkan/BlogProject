@@ -162,3 +162,5 @@ C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Blog\BlogR
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Comment\PartialAddComment.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Comment\CommentListByBlog.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentList\Default.cshtml.g.cs
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Blog\BlogDetails.cshtml.g.cs
