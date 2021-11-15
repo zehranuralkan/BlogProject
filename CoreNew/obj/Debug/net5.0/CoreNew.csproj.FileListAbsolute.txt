@@ -165,3 +165,4 @@ C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Com
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Blog\BlogDetails.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
