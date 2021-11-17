@@ -166,3 +166,8 @@ C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Com
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Blog\BlogDetails.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
 C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
+C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\HP\source\repos\CoreNew\CoreNew\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\CoreNew.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\source\repos\CoreNew\CoreNew\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
