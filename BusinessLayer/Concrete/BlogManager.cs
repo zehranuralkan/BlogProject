@@ -19,7 +19,7 @@ namespace BusinessLayer.Concrete
         }
 
         public void BlogAdd(Blog blog)
-        {
+        { 
             throw new NotImplementedException();
         }
 
@@ -50,6 +50,11 @@ namespace BusinessLayer.Concrete
         public List<Blog> GetList()
         {
             return _blogDal.GetListAll();
+        }
+
+        public List<Blog> GetBlogListByWriter(int id)
+        {
+            return _blogDal.GetListAll(x => x.WriterID == id);
         }
     }
 }

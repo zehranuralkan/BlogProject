@@ -15,7 +15,7 @@ namespace DataAccessLayer.Concrete
             )
         {
 
-            optionsBuilder.UseSqlServer("server=LAPTOP-LAVUU4UR;database=CoreBlogDb; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=LAPTOP-LAVUU4UR;database=CoreBlogDbb; integrated security=true;");
 
         }
 
@@ -28,6 +28,7 @@ namespace DataAccessLayer.Concrete
         public  DbSet<Comment> Comments { get; set; }
         public  DbSet<Contact> Contacts { get; set; }
         public  DbSet<Writer> Writers { get; set; }
+        public DbSet<NewsLetter> NewsLetters { get; set; }
 
 
 
