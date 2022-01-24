@@ -17,7 +17,7 @@ namespace BusinessLayer.Concrete
 
         public NewsLetterManager(EFNewsLetterRepository eFNewsLetterRepository)
         {
-            this.eFNewsLetterRepository = eFNewsLetterRepository;
+            _newsletterDal = eFNewsLetterRepository;
         }
 
         public void AddNewsLetter(NewsLetter newsletter)
