@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
@@ -19,11 +20,14 @@ namespace CoreNew.Controllers
             return PartialView();
         }
         [HttpPost]
-        public PartialViewResult SubscribeMail(NewsLetter p)
+        public IActionResult SubscribeMail(NewsLetter p)
         {
+            Context c = new Context();
             p.MailStatus = true;
             nm.AddNewsLetter(p);
-            return PartialView();
+         
+            return RedirectToAction("Index", "Blog");
+
         }
     }
 }

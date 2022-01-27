@@ -1,6 +1,8 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,8 @@ using System.Threading.Tasks;
 
 namespace CoreNew.Controllers
 {
-     public class CommentController : Controller
+    [AllowAnonymous]
+    public class CommentController : Controller
     {
         CommentManager cm = new CommentManager(new EFCommentRepository());
 
@@ -23,13 +26,15 @@ namespace CoreNew.Controllers
             return PartialView();
         }
         [HttpPost]
-        public PartialViewResult PartialAddComment(Comment p)
+        public IActionResult PartialAddComment(Comment p)
         {
+           Context c = new Context();
             p.CommentDate = DateTime.Parse(DateTime.Now.ToShortDateString());
             p.CommentStatus = true;
             p.BlogID = 8;
             cm.CommentAdd(p);
-            return PartialView();
+            return RedirectToAction("BlogReadAll", "Blog", new { id = c.Blogs.Select(x => x.BlogID).FirstOrDefault() });
+
         }
         public PartialViewResult CommentListByBlog(int id)
         {
